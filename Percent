@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargin-out</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .feature {
+            width: 30%;
+            padding: 10px;
+            background-color: #e4e4e4;
+            border-radius: 8px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chargin-out</h1>
+        <p>Revolutionizing Wireless Charging</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#technology">Technology</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h1>Welcome to Chargin-out</h1>
+        <p>Experience the future of wireless charging with our innovative phone cases that allow seamless power transfer between devices.</p>
+        <div class="features">
+            <div class="feature">
+                <h2>Convenient</h2>
+                <p>Charge your phone without the hassle of cables.</p>
+            </div>
+            <div class="feature">
+                <h2>Efficient</h2>
+                <p>Optimized power transfer for maximum efficiency.</p>
+            </div>
+            <div class="feature">
+                <h2>Safe</h2>
+                <p>Built-in safety features to protect your devices.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="product">
+        <h1>Our Product</h1>
+        <h2>Chargin-out Phone Cases</h2>
+        <p>Our phone cases are equipped with state-of-the-art technology that enables wireless power transfer between devices. Whether you're at home, in the office, or on the go, Chargin-out phone cases ensure that you always have power when you need it.</p>
+        <h2>How It Works</h2>
+        <p>Using advanced inductive and resonant coupling technologies, our phone cases can send and receive power wirelessly. Simply place two Chargin-out cases near each other, and watch as the power is seamlessly transferred from one device to another.</p>
+    </div>
+    <div class="container" id="technology">
+        <h1>Our Technology</h1>
+        <h2>Wireless Charging</h2>
+        <p>Our technology leverages the principles of inductive and resonant coupling to achieve efficient wireless power transfer. With built-in safety mechanisms and optimized power management, our phone cases provide a reliable and safe charging experience.</p>
+        <h2>Safety and Efficiency</h2>
+        <p>Chargin-out phone cases are designed with safety in mind. Over-voltage protection, over-current protection, and temperature regulation ensure that your devices are protected during the charging process. Our technology also maximizes efficiency, reducing energy loss and ensuring fast charging times.</p>
+    </div>
+    <div class="container" id="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>You can also reach us at <a href="mailto:info@charginout.com">info@charginout.com</a> or call us at (123) 456-7890.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Chargin-out. All rights reserved.</p>
+    </footer>
+</body>
+</html>
